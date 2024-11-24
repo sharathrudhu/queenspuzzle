@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #333;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+    margin: 20px auto;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell.purple {
+    background-color: #e4c6f9;
+}
+
+.cell.green {
+    background-color: #b5e6a1;
+}
+
+.cell.orange {
+    background-color: #fdd49e;
+}
+
+.cell.yellow {
+    background-color: #faf49e;
+}
+
+.cell.blue {
+    background-color: #a6d8fa;
+}
+
+.cell.red {
+    background-color: #f7a8a9;
+}
+
+.cell.gray {
+    background-color: #d3d3d3;
+}
+
+.cell.pink {
+    background-color: #f9c5d1;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
